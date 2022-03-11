@@ -37,7 +37,7 @@ public class parsing {
 						
 						String checkStart = line.replaceAll("[\\s+]", "");
 											
-						if(checkStart.contains("SZ[")) {
+						if(checkStart.contains(startRecord)) {
 							
 							/* It will check end of record exists*/
 							if(checkStart.indexOf(endRecord)>-1 ) {
