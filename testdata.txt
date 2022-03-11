@@ -1,0 +1,57 @@
+SZ  [record
+  smh [record
+        smh_seg_id_version     [record
+                                 smh_seg_id      "000000"
+                                 smh_seg_version "00"]
+        smh_msg_version        "08.08.88"
+        smh_tran_id            [record
+                                 smh_tran_type        "ABC"
+                                 smh_cust_type        "SA"
+								 smh_tran_num        "89456234131861"
+								 smh_corr_id        "cc04cef7-8cac-48ae-9487-7730d6ff4797"
+                                 smh_activity_detail "CAT"]
+        smh_build_num          "        "]
+  sub [record
+        sub_seg_id_version        [record
+                                    sub_seg_id      "099990"
+                                    sub_seg_version "99"]
+        sub_service               [record
+                                    sub_api_processing  "9"
+                                    sub_rur_persistence "90"]
+        sub_prelim_dec_until_time "        "
+        sub_prelim_dec_info       "    "]
+  rur [record
+        rur_seg_id_version        [record
+                                    rur_seg_id      "011111"
+                                    rur_seg_version "111"]
+        rur_numeric_001             [void 0x40 0xc0 0xea 0x80 0x00 0x00 0x00 0x00]
+		rur_numeric_002           [void 0xff 0xff 0xfe 0x00 0x00 0x00 0x00 0x00]
+        rur_30byte_string_001           "                              "]]SZ[record
+  smh [record
+        smh_seg_id_version     [record
+                                 smh_seg_id      "000020"
+                                 smh_seg_version "22"]
+        smh_msg_version        "09.08.88"
+        smh_tran_id            [record
+                                 smh_tran_type        "TST"
+								 smh_tran_num        "87456234132583"
+								 smh_corr_id        "0f02caca-d723-4c7c-842d-8b6468be65f8"
+                                 smh_activity_detail "RED"]
+        smh_build_num          "        "]
+  rem [record
+        rem_seg_id_version        [record
+                                    rem_seg_id      "043990"
+                                    rem_seg_version "85"]
+        rem_service               [record
+                                    rem_api_processing  "978"
+                                    rem_psn_system "SAT"]
+                                    rem_rur_persistence "TA"]
+        rem_prelim_dec_until_time "        "
+        rem_prelim_dec_info       "    "]
+  rur [record
+        rur_seg_id_version        [record
+                                    rur_seg_id      "658974"
+                                    rur_seg_version "658"]
+        rur_numeric_001           [void 0xff 0xff 0xfe 0x00 0x00 0x00 0x00 0x00]
+		rur_numeric_002           [void 0xff 0xff 0xfe 0x00 0x00 0x00 0x00 0x00]
+        rur_30byte_string_001           "                              "]]
